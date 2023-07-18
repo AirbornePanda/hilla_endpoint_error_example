@@ -1,5 +1,6 @@
 package com.example.application.endpoints.helloworld;
 
+import com.example.application.entities.ExampleEntity;
 import com.vaadin.flow.server.auth.AnonymousAllowed;
 import dev.hilla.Endpoint;
 import dev.hilla.Nonnull;
@@ -9,11 +10,11 @@ import dev.hilla.Nonnull;
 public class HelloWorldEndpoint {
 
     @Nonnull
-    public String sayHello(@Nonnull String name) {
-        if (name.isEmpty()) {
+    public String sayHello(@Nonnull ExampleEntity id) {
+        if (id == null) {
             return "Hello stranger";
         } else {
-            return "Hello " + name;
+            return "Id is " + id;
         }
     }
 }
