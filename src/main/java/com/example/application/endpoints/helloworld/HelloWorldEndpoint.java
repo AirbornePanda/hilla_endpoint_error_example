@@ -1,20 +1,21 @@
 package com.example.application.endpoints.helloworld;
 
 import com.example.application.entities.ExampleEntity;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.vaadin.flow.server.auth.AnonymousAllowed;
 import dev.hilla.Endpoint;
 import dev.hilla.Nonnull;
 
 @Endpoint
 @AnonymousAllowed
-public class HelloWorldEndpoint {
+public class HelloWorldEndpoint extends BaseEndpoint<String>{
 
-    @Nonnull
-    public String sayHello(@Nonnull ExampleEntity id) {
-        if (id == null) {
-            return "Hello stranger";
-        } else {
-            return "Id is " + id;
-        }
-    }
+    @JsonIgnore
+    public String test;
+
+    @JsonProperty("jesus")
+    public String test2;
+
+
 }

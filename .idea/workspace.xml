@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d900e3d7-279c-4075-92c4-37b0f44d264d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/application/entities/CoreEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/application/entities/ExampleEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/application/entities/ICoreEntity.java" afterDir="false" />
+    <list default="true" id="d900e3d7-279c-4075-92c4-37b0f44d264d" name="Changes" comment="Initial files">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/application/endpoints/helloworld/BaseEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/application/endpoints/helloworld/SecondEndpoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/application/endpoints/helloworld/HelloWorldEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/application/endpoints/helloworld/HelloWorldEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/application/entities/ExampleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/application/entities/ExampleEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +43,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "386d2eed99f55f5939f882de4e8df4f0",
+    "ts.external.directory.path": "C:\\Users\\julia\\IdeaProjects\\Minimal_example\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -68,11 +78,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689670260278</updated>
-      <workItem from="1689670262607" duration="293000" />
+      <workItem from="1689670262607" duration="921000" />
+      <workItem from="1689689626319" duration="202000" />
+      <workItem from="1689792445559" duration="731000" />
+      <workItem from="1689796451575" duration="8000" />
+      <workItem from="1690197409777" duration="39000" />
+      <workItem from="1692224078052" duration="627000" />
+      <workItem from="1693853216855" duration="599000" />
+      <workItem from="1694076783856" duration="542000" />
+      <workItem from="1694095353300" duration="1489000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial files">
+      <created>1689670804021</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689670804021</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial files" />
   </component>
 </project>
